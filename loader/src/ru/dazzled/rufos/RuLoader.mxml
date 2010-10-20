@@ -2,6 +2,13 @@
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark">
     <fx:Script><![CDATA[
         import mx.controls.Alert;
-        ]]></fx:Script>
+    ]]></fx:Script>
+
+    <s:Group id="systemLayer" width="100%" height="100%" />
+    <s:Group id="desktopLayer" width="100%" height="100%" />
+    <s:Group id="windowLayer" width="100%" height="100%" />
+    <s:Group id="topLayer" width="100%" height="100%" />
+    <s:Group id="lockLayer" width="100%" height="100%" />
+
     <s:Button click="Alert.show('Hello, world')" label="Say Hello"/>
 </s:Application>
